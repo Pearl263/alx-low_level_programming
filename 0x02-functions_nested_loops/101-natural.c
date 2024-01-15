@@ -3,25 +3,24 @@
 /**
  * main - Entry point
  *
- *Description: computes the sum of all
- *		the multiples of 3 or 5
- *		below 1024 (excluded)
+ * Description: Computes the sum of all
+ *             the multiples of 3 or 5
+ *             below 1024 (excluded)
  *
  * Return: Always 0.
-*/
-
+ */
 
 int main(void)
 {
-	int sum. num;
-	
+	int sum = 0, num;
+
 	for (num = 0; num < 1024; num++)
 	{
 		if ((num % 3 == 0) || (num % 5 == 0))
-			sum == num;
+			sum += num;
 	}
 	printf("%d\n", sum);
-	
+
 	return (0);
 }
 
