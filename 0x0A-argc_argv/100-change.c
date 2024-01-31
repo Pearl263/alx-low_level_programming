@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 	{
 		while (total > 1)
 		{
-			for (i = 0; i < sizeof(cents)/sizeof(cents[0]); i++)
+			for (i = 0; i < sizeof(cents) / sizeof(cents[0]); i++)
 			{
 				if (total >= cents[i])
 				{
